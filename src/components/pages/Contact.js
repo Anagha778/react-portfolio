@@ -44,11 +44,15 @@ function Contact() {
           </div> 
           <form id="contact-form" onSubmit={handleSubmit}>
             <div className="contact">
-                <label htmlFor="name">Name: </label>
-                <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+            <label htmlFor="name">Name: </label>
             </div>
+            <div>
+            <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+            </div>           
             <div className="contact">
                 <label htmlFor="email">Email address: </label>
+            </div>
+            <div>
                 <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
             </div>
             <div className="contact">

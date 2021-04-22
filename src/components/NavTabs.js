@@ -4,7 +4,7 @@ function NavTabs(props) {
   const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
   return (
     <header className="flex-row px-1">
-      <h3>Anagha Pawar</h3>
+      <h1>Anagha</h1>
       <nav>
       <ul className="flex-row">
         {tabs.map(tab => (
