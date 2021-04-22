@@ -3,21 +3,24 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <ul className="nav nav-tabs">
-      {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
-          <a
-            href={'#' + tab.toLowerCase()}
-            onClick={() => props.handlePageChange(tab)}
-            className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
-            }
-          >
-            {tab}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <header className="flex-row px-1">
+      <h3>Anagha Pawar</h3>
+      <nav>
+      <ul className="flex-row">
+        {tabs.map(tab => (
+          <li className="mx-2" key={tab}>
+            <a
+              href={'#' + tab.toLowerCase()}
+              onClick={() => props.handlePageChange(tab)}
+              className={props.currentPage === tab && 'navActive'}
+            >
+              {tab}
+            </a>
+          </li>
+        ))}
+      </ul>
+      </nav>
+    </header>
   );
 }
 

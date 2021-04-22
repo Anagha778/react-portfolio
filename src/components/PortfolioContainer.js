@@ -26,12 +26,19 @@ function PortfolioContainer() {
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>
       <div>
         {
           // Render the component returned by 'renderPage()'
           renderPage(currentPage)
         }
       </div>
+      </main>
+      <footer>
+        <div>
+          Made by Anagha
+        </div>
+      </footer>
     </div>
   );
 }
