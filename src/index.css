@@ -327,6 +327,10 @@ footer {
   border-radius: 50%;
 }
 
+.resume li{
+  list-style-type: circle;
+}
+
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 10px;
