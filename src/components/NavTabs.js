@@ -8,7 +8,10 @@ function NavTabs(props) {
       <nav>
       <ul className="flex-row">
         {tabs.map(tab => (
-          <li className="mx-2" key={tab}>
+          <li 
+          className={`mx-2 ${tab === tabs[0] && `navActive`}`}
+          key={tab}
+          >
             <a
               href={'#' + tab.toLowerCase()}
               onClick={() => props.handlePageChange(tab)}

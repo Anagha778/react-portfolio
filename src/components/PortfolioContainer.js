@@ -35,10 +35,12 @@ function PortfolioContainer() {
       </div>
       </main>
       <footer>
-        <div>
-          Made by Anagha
-        </div>
-      </footer>
+      <div>
+        <i className="fa logo">&#xf09b;</i>
+        <i className="fa logo">&#xf08c;</i>
+        <i className="fa logo">&#xf16c;</i>
+      </div>
+        </footer>
     </div>
   );
 }

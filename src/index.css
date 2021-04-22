@@ -295,6 +295,21 @@ a {
   color: var(--tertiary);
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: DarkSalmon;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.logo{  
+  padding-right: 10px;
+}
+
+
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 10px;
