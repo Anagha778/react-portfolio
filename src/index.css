@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: rgb(219, 168, 150);
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -30,13 +30,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 100;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'times new roman', cursive;
 
 }
 
@@ -45,8 +45,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Roboto', sans-serif;
+h6 { 
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -78,7 +77,7 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
+ 
   margin-top: 0;
 }
 
@@ -299,8 +298,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: DarkSalmon;
+  width: 100%; 
   color: white;
   text-align: center;
   font-size: 30px;
@@ -309,6 +307,14 @@ footer {
   padding-right: 10px;
 }
 
+.about{
+  margin-bottom: 20px;
+}
+.profimg{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 980px) {
   header {
