@@ -49,7 +49,7 @@ function Portfolio() {
     <div className="flex-row">
       {images.map(image => (
       <figure>
-          <div className="cap"><a href={image.app_url} target="_blank">{image.app_name}</a><a href={image.git_url} target="_blank"><i className="fa logo">&#xf09b;</i></a></div>
+          <div className="cap"><a className="lk" href={image.app_url} target="_blank">{image.app_name}</a><a className="lk" href={image.git_url} target="_blank"><i className="fa logo">&#xf09b;</i></a></div>
           <img src={require(`../../assets/small/${image.img_name}`).default} className="img-thumbnail mx-1" alt={image.app_name} key={image.app_name}/>                
       </figure>   
         ))}
