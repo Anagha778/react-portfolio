@@ -44,7 +44,7 @@ function Portfolio() {
   return(
   <div>
     <div>
-    <h1>Projects</h1>
+    <h2>Projects</h2>
     </div>
     <div className="flex-row">
       {images.map(image => (

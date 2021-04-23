@@ -6,8 +6,8 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: rgb(219, 168, 150);
-  --tertiary: #B12704;
+  --secondary: rgb(194, 149, 132);
+  --tertiary: #7c1b03;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -53,10 +53,14 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  font-weight: 600;
+  font-family: 'Poiret One', cursive;
+  text-shadow: 4px 4px #B12704;
 }
 
 h2 {
   font-size: 2rem;
+  text-shadow: 2px 2px rgb(219, 168, 150);
 }
 
 h3 {
@@ -90,34 +94,37 @@ a:hover {
 }
 
 a.lk:link {
-  color: white;
+  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
 }
 a.lk:visited {
-  color: white;
+  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
 }
 a.lk:active {
-  color: white;
+  color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
 }
 
 a.lk:hover {
   text-decoration: underline;
+  color: white;
 }
 
 
 header {
   background: var(--secondary);
-  
+  /*background: url('./assets/small/img.jpg');*/
 }
 
 header a {
   color: var(--light);
   font-weight: 600;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.2rem;
 }
 
 button {
@@ -129,7 +136,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--tertiary);
 }
 
 button:hover {
@@ -291,10 +298,10 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--secondary);
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: var(--tertiary);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;

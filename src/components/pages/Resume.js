@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => (
   <div>
-    <h1>Resume</h1>
+    <h2>Resume</h2>
     <div>
     <p>Download my <a href="#">resume</a></p>
     </div>
