@@ -239,9 +239,9 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
@@ -329,6 +329,9 @@ footer {
 
 .resume li{
   list-style-type: circle;
+}
+.cap{
+  text-align: center;
 }
 
 @media screen and (max-width: 980px) {
