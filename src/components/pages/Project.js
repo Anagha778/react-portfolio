@@ -9,13 +9,13 @@ function Project() {
       git_url:'https://github.com/Uot-Project1-Group07/project1-group07'
     },
     {
-      img_name:'pim.png',
+      img_name:'pim.jpg',
       app_name:'MNMLIZE',
       app_url:'https://mnmlize.herokuapp.com/',
       git_url:'https://github.com/P-I-M/Personal-Inventory-Management-'
     },
     {
-      img_name:'weather.png',
+      img_name:'weather.jpg',
       app_name:'Weather Dashboard',
       app_url:'https://anagha778.github.io/weather-dashboard/',
       git_url:'https://github.com/Anagha778/weather-dashboard'
@@ -27,7 +27,7 @@ function Project() {
       git_url:'https://github.com/Anagha778/day-scheduler'
     },
     {
-      img_name:'code.png',
+      img_name:'code.jpg',
       app_name:'Code Quiz',
       app_url:'https://anagha778.github.io/code-quiz/',
       git_url:'https://github.com/Anagha778/code-quiz'
