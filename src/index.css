@@ -365,4 +365,49 @@ footer {
     padding-bottom: 10px;
     justify-content: center;
   }
+  input{
+    width:400px;
+  }
+  
+  textarea{
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  header a {
+    font-weight: 500;
+  }
+
+
+input{
+  width:400px;
+}
+
+textarea{
+  width: 400px;
+}
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    justify-content: center;
+  }
+
+  header a {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+input{
+  width:300px;
+}
+
+textarea{
+  width: 300px;
+}
 }
