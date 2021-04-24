@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 
 function Navigation(props) {
   const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
@@ -10,13 +10,14 @@ function Navigation(props) {
       <ul className="flex-row">
         {tabs.map(tab => (
           <li 
-          className={`mx-2 ${props.currentPage === tab && 'navActive'}`}
+          className="mx-2"
           key={tab}
           >
             <a
               href={'#' + tab.toLowerCase()}
               onClick={() => props.handlePageChange(tab)}
-              className={props.currentPage === tab && 'navActive'}
+              className={props.currentPage === tab ? 'navActive' : 'nav-link'}
+              key={tab}
             >
               {tab}
             </a>
