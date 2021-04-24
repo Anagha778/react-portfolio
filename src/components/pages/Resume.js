@@ -4,7 +4,7 @@ const Resume = () => (
   <div>
     <h2>Resume</h2>
     <div>
-    <p>Download my <a href="#">resume</a></p>
+    <p>Download my <a href="../../assets/small/Resume.docx" download>resume</a></p>
     </div>
     <div>Front end proficiencies: </div>
     <ul className="resume">

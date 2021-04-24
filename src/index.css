@@ -122,9 +122,9 @@ header {
 
 header a {
   color: var(--light);
-  font-weight: 600;
-  font-family: 'Poiret One', cursive;
-  font-size: 1.2rem;
+  font-weight: 600;  
+  font-size: 1.4rem;
+  text-shadow: 2px 2px #b47565;
 }
 
 button {
