@@ -1,6 +1,6 @@
 import React from "react";
 
-function Portfolio() {
+function Project() {
   const images = [
     {
       img_name:'covid.png',
@@ -58,4 +58,4 @@ function Portfolio() {
   );
 };
 
-export default Portfolio;
+export default Project;

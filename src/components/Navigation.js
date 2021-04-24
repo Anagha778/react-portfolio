@@ -1,9 +1,8 @@
 import React,{useState} from 'react';
 
-function NavTabs(props) {
+function Navigation(props) {
   const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
-  const [currentSection, setCurrentSection] = useState(tabs[0]);
   return (
     <header className="flex-row px-1">
       <h1>Anagha</h1>
@@ -29,4 +28,4 @@ function NavTabs(props) {
   );
 }
 
-export default NavTabs;
+export default Navigation;
