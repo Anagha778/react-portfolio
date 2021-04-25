@@ -360,6 +360,10 @@ footer {
 .cap{
   text-align: center;
 }
+.foo{
+  color: var(--secondary);
+  font-size: small;
+}
 
 @media screen and (max-width: 980px) {
   header {
