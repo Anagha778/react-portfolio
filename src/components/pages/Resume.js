@@ -1,10 +1,11 @@
 import React from "react";
+import ResumeDoc from "../../assets/small/Resume.docx";
 
 const Resume = () => (
   <div>
     <h2>Resume</h2>
     <div>
-    <p>Download my <a href="../../assets/small/Resume.docx" download="resume">resume</a></p>
+    <p>Download my <a href={ResumeDoc} download="resume">resume</a></p>
     </div>
     <div>Front end proficiencies: </div>
     <ul className="resume">
