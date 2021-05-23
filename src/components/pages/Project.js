@@ -15,10 +15,10 @@ function Project() {
       git_url:'https://github.com/P-I-M/Personal-Inventory-Management-'
     },
     {
-      img_name:'weather.jpg',
-      app_name:'Weather Dashboard',
-      app_url:'https://anagha778.github.io/weather-dashboard/',
-      git_url:'https://github.com/Anagha778/weather-dashboard'
+      img_name:'deck.jpg',
+      app_name:'Mind Decks',
+      app_url:'https://group5-project3-uot-duolingo.herokuapp.com/',
+      git_url:'https://github.com/Uot-Project3-Group05/uot-project3-group5'
     },
     {
       img_name:'work.png',
